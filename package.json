@@ -1,9 +1,11 @@
 {
   "name": "@tailwindcss/cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "cli": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
